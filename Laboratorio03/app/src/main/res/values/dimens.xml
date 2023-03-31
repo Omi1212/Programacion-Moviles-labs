@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ImageView_Width_Height">128dp</dimen>
+    <dimen name="Title_Cash_Size">32sp</dimen>
+    <dimen name="Cash_S">72sp</dimen>
+</resources>

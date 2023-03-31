@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Laboratorio 03</string>
+    <string name="Title_TextView_S">Cantidad de Dinero</string>
+    <string name="Cash_TextView_S">0</string>
+    <string name="Five_Cents_S">$0.05</string>
+    <string name="Ten_Cents_S">$0.10</string>
+    <string name="Quater_S">$0.25</string>
+    <string name="Dollar_S">$1</string>
+</resources>
