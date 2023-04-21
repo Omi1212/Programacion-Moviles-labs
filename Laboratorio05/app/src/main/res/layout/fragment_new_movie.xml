@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newMovieFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/backgroundLayout">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="50dp"
+        android:text="@string/create_movie_txt"
+        android:textColor="@color/white"
+        android:textSize="54sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_name"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/name_txtbox"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardLayout"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_category"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/category_txtbox"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardLayout"
+            android:textColor="@color/white" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_description"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/description_txtbox"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardLayout"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField_calification"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/calification_txtbox"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColorHint="@color/white">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardLayout"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonColor"
+        android:text="@string/submit_btn"
+        android:textColor="@color/black" />
+</LinearLayout>
